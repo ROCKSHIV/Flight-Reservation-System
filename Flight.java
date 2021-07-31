@@ -1,11 +1,10 @@
-import jdk.nashorn.internal.objects.annotations.Getter;
-
 public class Flight {
     int flightNumber;
     String airLine;
     int flightCap;
-    int noOfSeats;
-    noOfSeats = flightCap;
+    int seat;
+
+    seat = flightCap;
     
     public String getAirLine() {
         return airLine;
@@ -17,7 +16,7 @@ public class Flight {
         return flightNumber;
     }
     public int getNoOfSeats() {
-        return noOfSeats;
+        return seat;
     }
     public void setAirLine(String airLine) {
         this.airLine = airLine;
@@ -29,11 +28,11 @@ public class Flight {
         this.flightNumber = flightNumber;
     }
     public void setNoOfSeats(int noOfSeats) {
-        this.noOfSeats = noOfSeats;
+        this.seat = noOfSeats;
     }
     int availableSeat(int book)
     {
-        return noOfSeats - book;
+        return seat - book;
     }
 
 }
