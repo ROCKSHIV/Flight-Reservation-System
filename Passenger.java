@@ -1,7 +1,7 @@
-public class Passenger {
-    int id;
-    Address address;
-    Contact contact;
+public class Passenger extends Contact{
+    private int id;
+    private Address address;
+    private Contact contact;
     public Address getAddress() {
         return address;
     }

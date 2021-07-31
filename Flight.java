@@ -1,8 +1,8 @@
 public class Flight {
-    int flightNumber;
-    String airLine;
-    int flightCap;
-    int seat;
+    private int flightNumber;
+    private String airLine;
+    private int flightCap = 100;
+    private int seat;
 
     seat = flightCap;
     
@@ -30,9 +30,9 @@ public class Flight {
     public void setNoOfSeats(int noOfSeats) {
         this.seat = noOfSeats;
     }
-    int availableSeat(int book)
+    int Flight()
     {
-        return seat - book;
+        return seat --;
     }
 
 }

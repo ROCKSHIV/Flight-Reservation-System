@@ -1,8 +1,8 @@
-public class RegularTicket {
-    String food;
-    boolean water;
-    String snacks;
-    Passenger passenger;
+public class RegularTicket extends Flight {
+    private String food;
+    private boolean water;
+    private String snacks;
+    private Passenger passenger;
     public String getFood() {
         return food;
     }
@@ -25,5 +25,6 @@ public class RegularTicket {
         this.water = water;
     }
     
+
     
 }

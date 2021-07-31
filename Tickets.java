@@ -1,13 +1,13 @@
-public class Tickets {
+public class Tickets extends Flight {
 
-    int pnr;
-    String destinationLocation;
-    int seatNo;
-    String depDnT;
-    String arrDnT;
-    int Bookqty;
-    int fair;
-    boolean confirmation;
+    private int pnr;
+    private String destinationLocation;
+    private int seatNo;
+    private String depDnT;
+    private String arrDnT;
+    private int Bookqty;
+    private int fair;
+    private boolean confirmation;
 public String getArrDnT() {
     return arrDnT;
 }

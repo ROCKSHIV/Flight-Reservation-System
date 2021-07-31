@@ -1,7 +1,8 @@
 public class Address {
-    String street;
-    String city;
-    String state;
+
+   private String street;
+   private String city;
+   private String state;
     
     public String getCity() {
         return city;

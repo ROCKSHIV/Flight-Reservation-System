@@ -1,7 +1,7 @@
 public class TouristTicket {
-    String hotelAddress;
-    int turistLocation[] = new int[5];
-    Passenger passenger2;
+    private String hotelAddress;
+    private int turistLocation[] = new int[5];
+    private Passenger passenger2;
      void removeTuristLocation()
      {
          turistLocation[0] = 0;

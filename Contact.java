@@ -1,7 +1,7 @@
-public class Contact {
-    String name;
-    String number;
-    String email;
+public class Contact extends Address {
+    private String name;
+    private String number;
+    private String email;
     public String getEmail() {
         return email;
     }
